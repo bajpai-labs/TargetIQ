@@ -6,6 +6,8 @@ export const BRAND_LOGO_PATH = "/logo.png";
 export const BRAND_LOGO_WEBP_PATH = "/logo.webp";
 export const BRAND_LOGO_NAV_PATH = "/logo-nav.png";
 export const BRAND_LOGO_NAV_WEBP_PATH = "/logo-nav.webp";
+export const FAVICON_PATH = "/favicon-32.png";
+export const APPLE_TOUCH_ICON_PATH = "/logo-192.png";
 
 export const CONTACT_EMAIL = "hello@bajpailabs.com";
 export const BAJPAI_LABS_URL = "https://bajpailabs.com";

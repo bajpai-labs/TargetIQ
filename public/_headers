@@ -30,3 +30,12 @@
 
 /robots.txt
   Cache-Control: public, max-age=3600
+/logo-192.png
+  Cache-Control: public, max-age=31536000, immutable
+
+/favicon-32.png
+  Cache-Control: public, max-age=31536000, immutable
+
+/site.webmanifest
+  Content-Type: application/manifest+json; charset=utf-8
+  Cache-Control: public, max-age=86400

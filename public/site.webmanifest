@@ -1,0 +1,31 @@
+{
+  "name": "TargetIQ by Bajpai Labs",
+  "short_name": "TargetIQ",
+  "description": "TargetIQ by Bajpai Labs — multi-omics disease target discovery before chemistry begins.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#fdfbf5",
+  "background_color": "#fdfbf5",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo-192.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "business",
+    "medical",
+    "productivity"
+  ]
+}
