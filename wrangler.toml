@@ -1,0 +1,10 @@
+# Cloudflare Pages: source of truth for deploy settings.
+# Git / dashboard build command: `npm run build` (packages dist/pages with _worker.js).
+# Build output directory: `dist/pages` (from pages_build_output_dir below).
+#
+# https://developers.cloudflare.com/pages/functions/wrangler-configuration
+
+name = "targetiq"
+pages_build_output_dir = "dist/pages"
+compatibility_date = "2025-09-24"
+compatibility_flags = ["nodejs_compat"]

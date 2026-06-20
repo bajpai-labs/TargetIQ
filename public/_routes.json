@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "description": "SSR worker handles page routes. Static assets are excluded so ASSETS binding can serve them directly.",
+  "include": ["/*"],
+  "exclude": [
+    "/assets/*",
+    "/robots.txt",
+    "/sitemap.xml",
+    "/logo*",
+    "/og-social*",
+    "/_headers"
+  ]
+}
