@@ -10,6 +10,7 @@
     "build:github-pages": "node scripts/build-github-pages.mjs",
     "deploy:pages": "npm run build:pages && node scripts/pages-deploy.mjs",
     "deploy:github-pages": "npm run build:github-pages && gh workflow run github-pages.yml",
+    "upload:pages": "npm run deploy:pages",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
